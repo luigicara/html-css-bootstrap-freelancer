@@ -22,33 +22,12 @@ header {
     width: 70px;
 }
 
-.ms_card {
-    padding-top: 75%;
-    border-radius: 1rem;
+#portfolio .ms_line {
+    background-color: #2c3e50;
 }
 
-#ms_first {
-    background-color: #ba4b63;   
-}
-
-#ms_second {
-    background-color: #1ea4b6;   
-}
-
-#ms_third {
-    background-color: #140f0f;   
-}
-
-#ms_fourth {
-    background-color: #1c83c1;   
-}
-
-#ms_fifth {
-    background-color: #0e38b5;   
-}
-
-#ms_sixth {
-    background-color: #ccb2a3;   
+#portfolio .bi-star-fill {
+    color: #2c3e50;
 }
 
 #about {
@@ -97,11 +76,7 @@ header {
         width: 140px;
     }
 
-    .info_first {
-        margin-right: 0;
-    }
-    
-    .info_last {
-        margin-left: 0;
+    .ms_info {
+        width: 80%;
     }
 }
