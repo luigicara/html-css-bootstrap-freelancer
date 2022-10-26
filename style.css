@@ -7,22 +7,6 @@ header {
     border: 1px solid black;
 }
 
-#nav_bar{
-    min-height: 90px;
-}
-
-#title {
-    min-height: 30px;
-}
-
-li {
-    list-style-type: none;
-    height: 20px;
-}
-
-#hamburger {
-    height: 30px;
-}
 
 /* DEBUG MAIN */
 #hero {
@@ -30,22 +14,12 @@ li {
 }
 
 #hero img {
-    display: block;
-    min-width: 200px;
-    min-height: 200px;
-    border-radius: 50%;
+    width: 250px;
 }
 
-h1 {
-    min-height: 50px;
-}
-
-.ms_spacer {
-    min-height: 30px;
-}
-
-.ms_subtitle {
-    height: 35px;
+.ms_line {
+    height: 4px;
+    width: 70px;
 }
 
 .ms_card {
@@ -81,21 +55,8 @@ h1 {
     background-color: #1abc9c;
 }
 
-.info {
-    min-height: 200px;
+.ms_info {
     width: 60%;
-    margin: 0 auto;
-    text-align: start;
-}
-
-@media screen and (min-width:768px) {
-    .info_first {
-        margin-right: 0;
-    }
-    
-    .info_last {
-        margin-left: 0;
-    }
 }
 
 .ms_btn {
@@ -114,6 +75,7 @@ h1 {
     min-height: 200px;
 }
 
+/* DEBUG FOOTER */
 #top_footer {
     background-color: #3a546d;
 }
@@ -128,4 +90,18 @@ h1 {
 
 .ms_copyright {
     min-height: 100px;
+}
+
+@media screen and (min-width:768px) {
+    .ms_line {
+        width: 140px;
+    }
+
+    .info_first {
+        margin-right: 0;
+    }
+    
+    .info_last {
+        margin-left: 0;
+    }
 }
